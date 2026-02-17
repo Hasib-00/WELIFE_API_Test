@@ -1,0 +1,145 @@
+{
+  "banners": [
+    {
+      "id": "ban1",
+      "imageUrl": "https://res.cloudinary.com/dhpfn4umb/image/upload/v1769013499/uugv2rpxu5zhq2kfwnkg.png",
+      "title": "Night Sale Specials",
+      "targetType": "collection",
+      "targetId": "night"
+    },
+    {
+      "id": "ban2",
+      "imageUrl": "https://res.cloudinary.com/dhpfn4umb/image/upload/v1769013632/qcydih8jydhpbuttctvj.jpg",
+      "title": "Night Sale Specials",
+      "targetType": "collection",
+      "targetId": "night"
+    },
+    ,
+    {
+      "id": "ban3",
+      "imageUrl": "https://res.cloudinary.com/dhpfn4umb/image/upload/v1769010292/ofpgtwtuwggllbzgdqyb.jpg",
+      "title": "Night Sale Specials",
+      "targetType": "collection",
+      "targetId": "night"
+    }
+
+    
+  ],
+
+  "categories": [
+    { "id": "cat_panjabi", "name": "Panjabi" },
+    { "id": "cat_tshirt", "name": "T-Shirt" },
+    { "id": "cat_shirt", "name": "Shirt" },
+    { "id": "cat_pant", "name": "Pant" },
+    { "id": "cat_kurti", "name": "Kurti" },
+    { "id": "cat_tops", "name": "Tops" },
+    { "id": "cat_pajama", "name": "Pajama" }
+  ],
+
+  "collections": [
+    {
+      "id": "morning",
+      "name": "Morning Deals",
+      "activeFrom": "06:00",
+      "activeTo": "11:59",
+      "productIds": ["p1", "p2"]
+    },
+    {
+      "id": "evening",
+      "name": "Evening Trends",
+      "activeFrom": "16:00",
+      "activeTo": "19:59",
+      "productIds": ["p3"]
+    },
+    {
+      "id": "night",
+      "name": "Night Sale",
+      "activeFrom": "20:00",
+      "activeTo": "02:00",
+      "productIds": ["p4"]
+    }
+  ],
+
+  "products": [
+    {
+      "id": "p1",
+      "name": "Premium Cotton Panjabi",
+      "imageUrl": "https://res.cloudinary.com/example/image/upload/v1/panjabi.jpg",
+      "price": 3500,
+      "currency": "BDT",
+      "rating": 4.8,
+      "categoryId": "cat_panjabi",
+      "available": true
+    },
+    {
+      "id": "p2",
+      "name": "Classic White T-Shirt",
+      "imageUrl": "https://res.cloudinary.com/example/image/upload/v1/tshirt.jpg",
+      "price": 750,
+      "currency": "BDT",
+      "rating": 4.6,
+      "categoryId": "cat_tshirt",
+      "available": true
+    },
+    {
+      "id": "p3",
+      "name": "Formal Slim Fit Shirt",
+      "imageUrl": "https://res.cloudinary.com/example/image/upload/v1/shirt.jpg",
+      "price": 1800,
+      "currency": "BDT",
+      "rating": 4.7,
+      "categoryId": "cat_shirt",
+      "available": true
+    },
+    {
+      "id": "p4",
+      "name": "Casual Cotton Pant",
+      "imageUrl": "https://res.cloudinary.com/example/image/upload/v1/pant.jpg",
+      "price": 2200,
+      "currency": "BDT",
+      "rating": 4.5,
+      "categoryId": "cat_pant",
+      "available": true
+    },
+    {
+      "id": "p5",
+      "name": "Printed Ladies Kurti",
+      "imageUrl": "https://res.cloudinary.com/example/image/upload/v1/kurti.jpg",
+      "price": 2500,
+      "currency": "BDT",
+      "rating": 4.8,
+      "categoryId": "cat_kurti",
+      "available": true
+    }
+  ],
+
+  "productDetails": [
+    {
+      "productId": "p1",
+      "description": "Premium quality cotton panjabi perfect for festive and casual wear.",
+      "images": [
+        "https://cdn.example.com/products/panjabi_1.jpg",
+        "https://cdn.example.com/products/panjabi_2.jpg"
+      ],
+      "variants": [
+        { "label": "M", "price": 3500 },
+        { "label": "L", "price": 3600 },
+        { "label": "XL", "price": 3700 }
+      ],
+      "reviewsCount": 210
+    },
+    {
+      "productId": "p2",
+      "description": "Soft cotton t-shirt with regular fit for everyday comfort.",
+      "images": [
+        "https://cdn.example.com/products/tshirt_1.jpg"
+      ],
+      "variants": [
+        { "label": "S", "price": 750 },
+        { "label": "M", "price": 750 },
+        { "label": "L", "price": 800 }
+      ],
+      "reviewsCount": 145
+    }
+  ]
+}
