@@ -14,7 +14,6 @@
       "targetType": "collection",
       "targetId": "night"
     },
-    ,
     {
       "id": "ban3",
       "imageUrl": "https://res.cloudinary.com/dhpfn4umb/image/upload/v1769010292/ofpgtwtuwggllbzgdqyb.jpg",
@@ -22,8 +21,6 @@
       "targetType": "collection",
       "targetId": "night"
     }
-
-    
   ],
 
   "categories": [
